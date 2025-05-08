@@ -1103,7 +1103,7 @@ function analyzeZero(history) {
 
 // Configuração manual do webhook no Express e no Telegram
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN || '7609860377:AAEUu2hJ7Y-AzmC03p88jMxDxBSXIFu_ZvI';
-const PROJECT_URL = process.env.RAILWAY_STATIC_URL || 'https://energetic-presence.railway.app';
+const PROJECT_URL = process.env.RAILWAY_STATIC_URL || 'https://remarkable-reflection.railway.app';
 
 // Configurar webhook no Express
 app.use(express.json());
